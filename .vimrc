@@ -13,3 +13,6 @@ set cursorcolumn
 
 " 検索ハイライト
 set hlsearch
+
+" インクリメントサーチ
+set incsearch
