@@ -10,3 +10,6 @@ set showcmd
 " カーソルの表示
 set cursorline
 set cursorcolumn
+
+" 検索ハイライト
+set hlsearch
