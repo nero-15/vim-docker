@@ -1,3 +1,7 @@
+" ファイルを上書きする前にバックアップを作ることを無効化
+set nowritebackup
+set nobackup
+
 " 行番号を表示
 set number
 
