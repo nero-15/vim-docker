@@ -5,6 +5,9 @@ set nobackup
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
 
+" タイトルを表示
+set title
+
 " 行番号を表示
 set number
 
