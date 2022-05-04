@@ -21,12 +21,6 @@ set showcmd
 set cursorline
 set cursorcolumn
 
-" 検索ハイライト
-set hlsearch
-
-" インクリメントサーチ
-set incsearch
-
 " インデント幅
 set shiftwidth=4
 " タブキー押下時に挿入される文字幅を指定
@@ -43,3 +37,6 @@ set smartcase
 set wrapscan
 " インクリメンタル検索 (検索ワードの最初の文字を入力した時点で検索が開始)
 set incsearch
+
+" 検索ハイライト
+set hlsearch
