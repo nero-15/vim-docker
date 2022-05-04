@@ -33,3 +33,8 @@ set shiftwidth=4
 set softtabstop=4
 " ファイル内にあるタブ文字の表示幅
 set tabstop=4
+
+" 検索するときに大文字小文字を区別しない
+set ignorecase
+" 小文字で検索すると大文字と小文字を無視して検索
+set smartcase
