@@ -40,3 +40,6 @@ set incsearch
 
 " 検索ハイライト
 set hlsearch
+
+" エラーメッセージの表示時にビープを鳴らさない
+set noerrorbells
