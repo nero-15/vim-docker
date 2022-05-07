@@ -1,6 +1,10 @@
-" ファイルを上書きする前にバックアップを作ることを無効化
-set nowritebackup
-set nobackup
+" ファイル処理関連の設定
+
+set autoread   " 外部でファイルに変更がされた場合は読みなおす
+set confirm    " 保存されていないファイルがあるときは終了前に保存確認
+set hidden     " 保存されていないファイルがあるときでも別のファイルを開くことが出来る
+set nobackup   " ファイル保存時にバックアップファイルを作らない
+set noswapfile " ファイル編集中にスワップファイルを作らない
 
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
