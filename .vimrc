@@ -1,7 +1,8 @@
 " 画面表示の設定
 
 set number         " 行番号を表示する
-
+set cursorline     " カーソル行の背景色を変える
+set cursorcolumn   " カーソル位置のカラムの背景色を変える
 
 " ファイル処理関連の設定
 
@@ -24,9 +25,6 @@ set fenc=utf-8
 " 入力中のコマンドをステータスに表示する
 set showcmd
 
-" カーソルの表示
-set cursorline
-set cursorcolumn
 
 " インデント幅
 set shiftwidth=4
