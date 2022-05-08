@@ -1,3 +1,8 @@
+" 画面表示の設定
+
+set number         " 行番号を表示する
+
+
 " ファイル処理関連の設定
 
 set autoread   " 外部でファイルに変更がされた場合は読みなおす
@@ -12,8 +17,6 @@ set virtualedit=block
 " タイトルを表示
 set title
 
-" 行番号を表示
-set number
 
 " 文字コードをUFT-8に設定
 set fenc=utf-8
