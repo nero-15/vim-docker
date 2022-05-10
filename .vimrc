@@ -12,6 +12,7 @@ set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 " カーソル移動関連の設定
 
 set backspace=indent,eol,start " Backspaceキーの影響範囲に制限を設けない
+set whichwrap=b,s,h,l,<,>,[,]  " 行頭行末の左右移動で行をまたぐ
 
 " ファイル処理関連の設定
 
