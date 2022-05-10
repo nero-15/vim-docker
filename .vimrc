@@ -9,6 +9,10 @@ set showmatch      " 対応する括弧を強調表示
 set list           " 不可視文字を表示
 set listchars=tab:»-,trail:-,eol:↲,extends:»,precedes:«,nbsp:%
 
+" カーソル移動関連の設定
+
+set backspace=indent,eol,start " Backspaceキーの影響範囲に制限を設けない
+
 " ファイル処理関連の設定
 
 set autoread   " 外部でファイルに変更がされた場合は読みなおす
