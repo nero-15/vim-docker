@@ -60,8 +60,6 @@ set wrapscan
 " インクリメンタル検索 (検索ワードの最初の文字を入力した時点で検索が開始)
 set incsearch
 
-" 検索ハイライト
-set hlsearch
 
 " エラーメッセージの表示時にビープを鳴らさない
 set noerrorbells
