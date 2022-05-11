@@ -25,6 +25,10 @@ set hidden     " 保存されていないファイルがあるときでも別の
 set nobackup   " ファイル保存時にバックアップファイルを作らない
 set noswapfile " ファイル編集中にスワップファイルを作らない
 
+" 検索/置換の設定
+
+set hlsearch   " 検索文字列をハイライトする
+
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
 
