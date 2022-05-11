@@ -30,6 +30,7 @@ set noswapfile " ファイル編集中にスワップファイルを作らない
 set hlsearch   " 検索文字列をハイライトする
 set incsearch  " インクリメンタルサーチを行う
 set ignorecase " 大文字と小文字を区別しない
+set smartcase  " 大文字と小文字が混在した言葉で検索を行った場合に限り、大文字と小文字を区別する
 
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
@@ -52,8 +53,6 @@ set softtabstop=4
 " ファイル内にあるタブ文字の表示幅
 set tabstop=4
 
-" 小文字で検索すると大文字と小文字を無視して検索
-set smartcase
 
 " 検索がファイル末尾まで進んだら、ファイル先頭から再び検索
 set wrapscan
