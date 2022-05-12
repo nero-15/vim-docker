@@ -34,6 +34,9 @@ set smartcase  " 大文字と小文字が混在した言葉で検索を行った
 set wrapscan   " 最後尾まで検索を終えたら次の検索で先頭に移る
 set gdefault   " 置換の時 g オプションをデフォルトで有効にする
 
+" タブ/インデントの設定
+set tabstop=4     " 画面上でタブ文字が占める幅
+
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
 
@@ -50,8 +53,7 @@ set showcmd
 
 " インデント幅
 set shiftwidth=4
-" タブキー押下時に挿入される文字幅を指定
-set softtabstop=4
+
 " ファイル内にあるタブ文字の表示幅
 set tabstop=4
 
