@@ -36,6 +36,8 @@ set gdefault   " 置換の時 g オプションをデフォルトで有効にす
 
 " タブ/インデントの設定
 set tabstop=4     " 画面上でタブ文字が占める幅
+set shiftwidth=4  " 自動インデントでずれる幅
+
 
 " vim の矩形選択で文字が無くても右へ進める
 set virtualedit=block
@@ -51,11 +53,7 @@ set fenc=utf-8
 set showcmd
 
 
-" インデント幅
-set shiftwidth=4
 
-" ファイル内にあるタブ文字の表示幅
-set tabstop=4
 
 
 
