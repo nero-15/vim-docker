@@ -56,6 +56,12 @@ set fenc=utf-8
 " 入力中のコマンドをステータスに表示する
 set showcmd
 
+
+
+
+
+
+
 " ビープの設定
 set visualbell t_vb=
 set noerrorbells "エラーメッセージの表示時にビープを鳴らさない
