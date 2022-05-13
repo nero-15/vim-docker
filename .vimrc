@@ -58,6 +58,7 @@ set showcmd
 
 " ビープの設定
 set visualbell t_vb=
+set noerrorbells "エラーメッセージの表示時にビープを鳴らさない
 
 
 
