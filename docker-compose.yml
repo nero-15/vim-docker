@@ -3,7 +3,7 @@ version: "3.9"
 services:
   vim:
     build: .
-    command: vi /root/memo.txt
+    container_name: vim
     volumes:
-      - .vimrc:/root/.vimrc
-      - memo.txt:/root/memo.txt
+      - ./.vimrc:/root/.vimrc
+      - ./memo.txt:/root/memo.txt
