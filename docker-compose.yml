@@ -1,4 +1,5 @@
 version: "3.8"
 
 services:
-  vim: 
+  vim:
+    container_name: vim-docker
