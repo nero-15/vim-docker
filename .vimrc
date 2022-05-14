@@ -53,8 +53,8 @@ set title
 " 文字コードをUFT-8に設定
 set fenc=utf-8
 
-" 入力中のコマンドをステータスに表示する
-set showcmd
+
+
 
 
 
@@ -62,6 +62,7 @@ set showcmd
 
 set wildmenu wildmode=list:longest,full " コマンドラインモードでTABキーによるファイル名補完を有効にする
 set history=1000                        " コマンドラインの履歴を1000件保存する
+set showcmd                             " 入力中のコマンドをステータスに表示する
 
 " ビープの設定
 set visualbell t_vb=
