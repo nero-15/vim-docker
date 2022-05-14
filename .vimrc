@@ -1,5 +1,8 @@
+set fenc=utf-8 " 文字コードをUFT-8に設定
+
 " 画面表示の設定
 
+set title          " タイトルを表示
 set number         " 行番号を表示する
 set cursorline     " カーソル行の背景色を変える
 set cursorcolumn   " カーソル位置のカラムの背景色を変える
@@ -16,6 +19,7 @@ set whichwrap=b,s,h,l,<,>,[,]  " 行頭行末の左右移動で行をまたぐ
 set scrolloff=8                " 上下8行の視界を確保
 set sidescrolloff=16           " 左右スクロール時の視界を確保
 set sidescroll=1               " 左右スクロールは一文字づつ行う
+set virtualedit=block          " vim の矩形選択で文字が無くても右へ進める
 
 " ファイル処理関連の設定
 
@@ -41,17 +45,6 @@ set shiftwidth=4  " 自動インデントでずれる幅
 set softtabstop=4 " 連続した空白に対してタブキーやバックスペースキーでカーソルが動く幅
 set autoindent    " 改行時に前の行のインデントを継続する
 set smartindent   " 改行時に入力された行の末尾に合わせて次の行のインデントを増減する
-
-
-" vim の矩形選択で文字が無くても右へ進める
-set virtualedit=block
-
-" タイトルを表示
-set title
-
-
-" 文字コードをUFT-8に設定
-set fenc=utf-8
 
 
 
