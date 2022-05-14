@@ -2,4 +2,7 @@ version: "3.8"
 
 services:
   vim:
-    container_name: vim-docker
+    build: .
+    volumes:
+      - .vimrc:/root/.vimrc
+      - memo.txt:/root/memo.txt
