@@ -58,12 +58,6 @@ set history=1000                        " コマンドラインの履歴を1000�
 set showcmd                             " 入力中のコマンドをステータスに表示する
 
 " ビープの設定
-set visualbell t_vb=
-set noerrorbells "エラーメッセージの表示時にビープを鳴らさない
 
-
-
-
-
-" エラーメッセージの表示時にビープを鳴らさない
-set noerrorbells
+set visualbell t_vb=  "ビープ音すべてを無効にする
+set noerrorbells      "エラーメッセージの表示時にビープを鳴らさない
