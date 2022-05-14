@@ -58,8 +58,9 @@ set showcmd
 
 
 
+" コマンドラインの設定
 
-
+set wildmenu wildmode=list:longest,full " コマンドラインモードでTABキーによるファイル名補完を有効にする
 
 
 " ビープの設定
