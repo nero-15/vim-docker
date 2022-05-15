@@ -7,3 +7,4 @@ services:
     volumes:
       - ./.vimrc:/root/.vimrc
       - ./memo.txt:/root/memo.txt
+    tty: true
